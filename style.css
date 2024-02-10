@@ -1,0 +1,43 @@
+* {
+    font-family: 'Consolas';
+}
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    border: 2.5px solid;
+    position: relative;
+}
+.score {    
+    font-size: larger;
+}
+.box {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background: red;
+    cursor: pointer;
+}
+.button {
+    border: 1px solid;
+    border-radius: 50px;
+    font-size: large;
+    padding: 10px;
+    cursor: pointer;
+    background: transparent;
+}
+.button:hover {
+    filter: brightness(.9);
+}
+.button:active {
+    transform: scale(.9);
+}
+
